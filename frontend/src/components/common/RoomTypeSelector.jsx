@@ -3,6 +3,7 @@ import PropTypes from "prop-types";  // Adaugă această linie pentru a folosi P
 import { getRoomTypes } from "../utils/ApiFunctions";
 
 const RoomTypeSelector = ({ handleRoomInputChange, newRoom }) => {
+  
   const [roomTypes, setRoomTypes] = useState([""]);
   const [showNewRoomTypeInput, setShowNewRoomTypeInput] = useState(false);
   const [newRoomType, setNewRoomType] = useState("");

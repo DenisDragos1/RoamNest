@@ -1,7 +1,9 @@
 import  { useState } from "react"
 
 const RoomFilter = ({ data, setFilteredData }) => {
+	
 	const [filter, setFilter] = useState("")
+	
 
 	const handleSelectChange = (e) => {
 		const selectedType = e.target.value

@@ -1,6 +1,7 @@
 
 const RoomPaginator = ({ currentPage, totalPages, onPageChange }) => {
 	const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1)
+	
 	return (
 		<nav aria-label="Page navigation">
 			<ul className="pagination justify-content-center">

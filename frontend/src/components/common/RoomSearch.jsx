@@ -6,6 +6,7 @@ import RoomSearchResults from "./RoomSearchResult"
 import RoomTypeSelector from "./RoomTypeSelector"
 
 const RoomSearch = () => {
+	
 	const [searchQuery, setSearchQuery] = useState({
 		checkInDate: "",
 		checkOutDate: "",

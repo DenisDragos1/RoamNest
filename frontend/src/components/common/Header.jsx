@@ -1,5 +1,6 @@
 
 const Header = ({ title }) => {
+	
 	return (
 		<header className="header">
 			<div className="overlay"></div>

@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa"
 
 const HotelService = () => {
+	
 	return (
 		<>
 			<div className="mb-2">
