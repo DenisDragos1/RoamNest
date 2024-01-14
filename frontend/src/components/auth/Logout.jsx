@@ -23,6 +23,7 @@ const Logout = () => {
 			</li>
 			<button className="dropdown-item" onClick={handleLogout}>
 				Logout
+				
 			</button>
 		</>
 	)
