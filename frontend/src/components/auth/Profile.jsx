@@ -14,7 +14,6 @@ const Profile = () => {
 
 	const [bookings, setBookings] = useState([
 		{
-			
 			id: "",
 			room: { id: "", roomType: "" },
 			checkInDate: "",
