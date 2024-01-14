@@ -3,6 +3,7 @@ import { getRoomById, updateRoom } from "../utils/ApiFunctions"
 import { Link, useParams } from "react-router-dom"
 
 const EditRoom = () => {
+	
 	const [room, setRoom] = useState({
 		photo: "",
 		roomType: "",

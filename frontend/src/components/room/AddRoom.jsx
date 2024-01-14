@@ -4,6 +4,7 @@ import RoomTypeSelector from "../common/RoomTypeSelector"
 import { Link } from "react-router-dom"
 
 const AddRoom = () => {
+	
 	const [newRoom, setNewRoom] = useState({
 		photo: null,
 		roomType: "",
