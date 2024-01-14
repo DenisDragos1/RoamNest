@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom"
 import Header from "../common/Header"
 
 const BookingSuccess = () => {
+	
 	const location = useLocation()
 	const message = location.state?.message
 	const error = location.state?.error

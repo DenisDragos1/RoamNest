@@ -15,6 +15,7 @@ import { getRoomById } from "../utils/ApiFunctions"
 import RoomCarousel from "../common/RoomCarousel"
 
 const Checkout = () => {
+	
 	const [error, setError] = useState(null)
 	const [isLoading, setIsLoading] = useState(true)
 	const [roomInfo, setRoomInfo] = useState({

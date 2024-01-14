@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button"
 import { useNavigate } from "react-router-dom"
 
 const BookingSummary = ({ booking, payment, isFormValid, onConfirm }) => {
+	
 	const checkInDate = moment(booking.checkInDate)
 	const checkOutDate = moment(booking.checkOutDate)
 	const numberOfDays = checkOutDate.diff(checkInDate, "days")

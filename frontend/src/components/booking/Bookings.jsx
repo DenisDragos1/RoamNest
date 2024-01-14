@@ -4,6 +4,7 @@ import Header from "../common/Header"
 import BookingsTable from "./BookingsTable"
 
 const Bookings = () => {
+	
 	const [bookingInfo, setBookingInfo] = useState([])
 	const [isLoading, setIsLoading] = useState(true)
 	const [error, setError] = useState("")

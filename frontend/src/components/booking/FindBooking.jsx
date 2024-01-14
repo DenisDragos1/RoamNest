@@ -3,6 +3,7 @@ import moment from "moment"
 import { cancelBooking, getBookingByConfirmationCode } from "../utils/ApiFunctions"
 
 const FindBooking = () => {
+	
 	const [confirmationCode, setConfirmationCode] = useState("")
 	const [error, setError] = useState(null)
 	const [successMessage, setSuccessMessage] = useState("")
