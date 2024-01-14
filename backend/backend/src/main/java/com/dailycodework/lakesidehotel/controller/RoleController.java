@@ -14,14 +14,11 @@ import java.util.List;
 
 import static org.springframework.http.HttpStatus.FOUND;
 
-/**
- * @author Simpson Alfred
- */
-
 @RestController
 @RequestMapping("/roles")
 @RequiredArgsConstructor
 public class RoleController {
+
     private final IRoleService roleService;
 
     @GetMapping("/all-roles")
